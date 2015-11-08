@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nevech/cut-substring/issues"
   },
-  "homepage": "https://github.com/nevech/cut-substring#readme"
+  "homepage": "https://github.com/nevech/cut-substring#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
 }
