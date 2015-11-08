@@ -13,7 +13,21 @@ module.exports = function (str, start, end) {
 }
 
 function cutSubstringByRE (str, start, end) {
+  var startMatch = str.match(start);
+  var endMatch = str.match(end);
 
+  if (startMatch === null) {
+    return str;
+  }
+
+  var startSliceIndex = startMatch.index;
+  var endSliceIndex = str.length;
+
+  if (endMatch !== null) {
+    endSliceIndex = endMatch.index + endMatch[0].length;
+  }
+
+  return cutSubstringByIndex(str, startSliceIndex, endSliceIndex);
 }
 
 function cutSubstringByIndex (str, start, end) {
