@@ -1,4 +1,4 @@
-# cut-substring [![Build Status](https://travis-ci.org/nevech/cut-substring.svg?branch=master)](https://travis-ci.org/nevech/cut-substring)
+# cut-substring [![Build Status](https://travis-ci.org/nevech/cut-substring.svg?branch=master)](https://travis-ci.org/nevech/cut-substring) [![Coverage Status](https://coveralls.io/repos/nevech/cut-substring/badge.svg?branch=master&service=github)](https://coveralls.io/github/nevech/cut-substring?branch=master)
 Cut a substring from a string by index or RegExp.
 
 ## Install
