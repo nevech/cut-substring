@@ -33,5 +33,24 @@ cutSubstr('Some-string', startRE, endRE);
 //=> string
 ```
 
+## API
+
+### cutSubstr(str, start, [end])
+
+#### str
+
+*Required*
+Type: `string`
+
+#### start
+
+*Required*
+Type: `number` or `RegExp`
+
+#### end
+
+Type: `number` or `RegExp`
+Default: `str.length`
+
 ## License
 [The MIT License](./LICENSE)
