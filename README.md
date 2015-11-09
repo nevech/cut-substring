@@ -17,7 +17,8 @@ var cutSubstr = require('cut-substring');
 var startIndex = 4;
 var endIndex = 10;
 
-var str = cutSubstr('Some string', startIndex, endIndex); // result: Some
+cutSubstr('Some string', startIndex, endIndex);
+//=> Some
 ```
 
 Cut by RegExp
@@ -28,7 +29,8 @@ var cutSubstr = require('cut-substring');
 var startRE = /^[a-z]+/i;
 var endRE = /\-/;
 
-var str = cutSubstr('Some-string', startRE, endRE); // result: string
+cutSubstr('Some-string', startRE, endRE);
+//=> string
 ```
 
 ## License
