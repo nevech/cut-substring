@@ -1,7 +1,7 @@
 {
   "name": "cut-substring",
   "version": "1.0.0",
-  "description": "Cut substring",
+  "description": "Cut a substring from a string by index or RegExp",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
