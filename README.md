@@ -39,17 +39,17 @@ cutSubstr('Some-string', startRE, endRE);
 
 #### str
 
-*Required*
+*Required*  
 Type: `string`
 
 #### start
 
-*Required*
+*Required*  
 Type: `number` or `RegExp`
 
 #### end
 
-Type: `number` or `RegExp`
+Type: `number` or `RegExp`  
 Default: `str.length`
 
 ## License
