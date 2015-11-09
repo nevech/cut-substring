@@ -1,4 +1,4 @@
-# cut-substring
+# cut-substring [![Build Status](https://travis-ci.org/nevech/cut-substring.svg?branch=master)](https://travis-ci.org/nevech/cut-substring)
 Cut a substring from a string by index or RegExp.
 
 ## Install
