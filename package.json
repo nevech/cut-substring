@@ -4,7 +4,8 @@
   "description": "Cut a substring from a string by index or RegExp",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "coveralls": "coveralls"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/nevech/cut-substring#readme",
   "devDependencies": {
+    "coveralls": "^2.11.4",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
   },
