@@ -1,6 +1,6 @@
 {
   "name": "cut-substring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cut a substring from a string by index or RegExp",
   "main": "index.js",
   "scripts": {
